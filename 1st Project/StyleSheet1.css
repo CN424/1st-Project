@@ -1,0 +1,79 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    border-style: solid;
+    align-items: center;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.coverphoto {
+    background-image: url("coverphoto.jpg");
+    height: 50px;
+    width: 600px;
+    margin-top: 5px;
+    margin-left: 235px;
+    padding: 130px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: red;
+    min-zoom: 10%;
+}
+
+.profilepic {
+    background-image: url("me.jpeg");
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    left: 40%;
+    padding: 150px;
+    border-radius: 500px;
+    border-style: solid;
+    border-color: red;
+}
+
+.info {
+    align-items: center;
+}
+
+.profile {
+    background-color: red;
+    align-items: center;
+    margin-top: 350px;
+    border-block: solid;
+    border-color: black;
+}
+
+.followers .number {
+    font-weight: bold;
+}
+
+.followers .p {
+    font-weight: 100;
+    color: grey;
+}
+
+.likes .number {
+    font-weight: bold;
+}
+
+.likes .p {
+    font-weight: 100;
+    color: grey;
+}
+
+.photos .number {
+    font-weight: bold;
+}
+
+.photos .p {
+    font-weight: 100;
+    color: gray;
+}
